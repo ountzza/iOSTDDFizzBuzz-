@@ -9,9 +9,9 @@
 #import "FizzBuzz.h"
 
 @implementation FizzBuzz
-- (NSInteger)fizzBuzzOrNumber:(NSInteger)number{
+- (NSString*)fizzBuzzOrNumber:(NSInteger)number{
     if (number == 1)
-        return 1;
-    return 2;
+        return @"1";
+    return @"2";
 }
 @end

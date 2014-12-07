@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface FizzBuzz : NSObject
--(NSInteger)fizzBuzzOrNumber:(NSInteger) number;
+-(NSString*)fizzBuzzOrNumber:(NSInteger) number;
 
 @end

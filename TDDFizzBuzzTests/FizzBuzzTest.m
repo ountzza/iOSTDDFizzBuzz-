@@ -27,15 +27,19 @@
 }
 
 - (void)testIsOneOk {
-    NSInteger result = [self.fizzBuzz fizzBuzzOrNumber:1];
+    NSString* result = [self.fizzBuzz fizzBuzzOrNumber:1];
     NSInteger expectedResult = 1;
-    XCTAssertEqual(expectedResult, result);
+    XCTAssertEqual(expectedResult, result.integerValue);
 }
 
 -(void)testIsTwoOk {
-    NSInteger result = [self.fizzBuzz fizzBuzzOrNumber:2];
+    NSString* result = [self.fizzBuzz fizzBuzzOrNumber:2];
     NSInteger expectedResult = 2;
-    XCTAssertEqual(expectedResult, result);
+    XCTAssertEqual(expectedResult, result.integerValue);
 }
 
+//-(void)testIsThreeFizz {
+//    NSString result = [self.fizzBuzz fizzBuzzOrNumber:3];
+//    
+//}
 @end
