@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B061A661A34B30D009898E6 /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B061A651A34B30D009898E6 /* FizzBuzz.m */; };
+		4B061A671A34B30D009898E6 /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B061A651A34B30D009898E6 /* FizzBuzz.m */; };
+		4B061A691A34B32E009898E6 /* FizzBuzzTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B061A681A34B32E009898E6 /* FizzBuzzTest.m */; };
 		4B66AF701A34B2670050362C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66AF6F1A34B2670050362C /* main.m */; };
 		4B66AF731A34B2670050362C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66AF721A34B2670050362C /* AppDelegate.m */; };
 		4B66AF761A34B2670050362C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B66AF751A34B2670050362C /* ViewController.m */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B061A641A34B30D009898E6 /* FizzBuzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzBuzz.h; sourceTree = "<group>"; };
+		4B061A651A34B30D009898E6 /* FizzBuzz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzz.m; sourceTree = "<group>"; };
+		4B061A681A34B32E009898E6 /* FizzBuzzTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzTest.m; sourceTree = "<group>"; };
 		4B66AF6A1A34B2670050362C /* TDDFizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDFizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B66AF6E1A34B2670050362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B66AF6F1A34B2670050362C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +89,8 @@
 			children = (
 				4B66AF711A34B2670050362C /* AppDelegate.h */,
 				4B66AF721A34B2670050362C /* AppDelegate.m */,
+				4B061A641A34B30D009898E6 /* FizzBuzz.h */,
+				4B061A651A34B30D009898E6 /* FizzBuzz.m */,
 				4B66AF741A34B2670050362C /* ViewController.h */,
 				4B66AF751A34B2670050362C /* ViewController.m */,
 				4B66AF771A34B2670050362C /* Main.storyboard */,
@@ -106,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				4B66AF891A34B2670050362C /* TDDFizzBuzzTests.m */,
+				4B061A681A34B32E009898E6 /* FizzBuzzTest.m */,
 				4B66AF871A34B2670050362C /* Supporting Files */,
 			);
 			path = TDDFizzBuzzTests;
@@ -222,6 +231,7 @@
 				4B66AF761A34B2670050362C /* ViewController.m in Sources */,
 				4B66AF731A34B2670050362C /* AppDelegate.m in Sources */,
 				4B66AF701A34B2670050362C /* main.m in Sources */,
+				4B061A661A34B30D009898E6 /* FizzBuzz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B66AF8A1A34B2670050362C /* TDDFizzBuzzTests.m in Sources */,
+				4B061A671A34B30D009898E6 /* FizzBuzz.m in Sources */,
+				4B061A691A34B32E009898E6 /* FizzBuzzTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +426,7 @@
 				4B66AF8F1A34B2670050362C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B66AF901A34B2670050362C /* Build configuration list for PBXNativeTarget "TDDFizzBuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				4B66AF921A34B2670050362C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
