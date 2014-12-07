@@ -10,8 +10,9 @@
 
 @implementation FizzBuzz
 - (NSString*)fizzBuzzOrNumber:(NSInteger)number{
-    if (number == 1)
-        return @"1";
-    return @"2";
+    if (number%3 == 0)
+        return @"fizz";
+    else
+        return [NSString stringWithFormat:@"%li",(long)number];
 }
 @end

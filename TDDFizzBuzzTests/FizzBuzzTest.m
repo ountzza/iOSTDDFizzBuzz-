@@ -38,8 +38,9 @@
     XCTAssertEqual(expectedResult, result.integerValue);
 }
 
-//-(void)testIsThreeFizz {
-//    NSString result = [self.fizzBuzz fizzBuzzOrNumber:3];
-//    
-//}
+-(void)testIsThreeFizz {
+    NSString* result = [self.fizzBuzz fizzBuzzOrNumber:3];
+    NSString* expectedResult = @"fizz";
+    XCTAssertEqual(expectedResult, result);
+}
 @end
