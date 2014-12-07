@@ -10,6 +10,8 @@
 
 @implementation FizzBuzz
 - (NSInteger)fizzBuzzOrNumber:(NSInteger)number{
-    return 1;
+    if (number == 1)
+        return 1;
+    return 2;
 }
 @end

@@ -32,5 +32,10 @@
     XCTAssertEqual(expectedResult, result);
 }
 
+-(void)testIsTwoOk {
+    NSInteger result = [self.fizzBuzz fizzBuzzOrNumber:2];
+    NSInteger expectedResult = 2;
+    XCTAssertEqual(expectedResult, result);
+}
 
 @end
