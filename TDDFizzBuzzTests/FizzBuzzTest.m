@@ -43,4 +43,16 @@
     NSString* expectedResult = @"fizz";
     XCTAssertEqual(expectedResult, result);
 }
+
+-(void)testIsNineHundredNinetyOK {
+    NSString* result = [self.fizzBuzz fizzBuzzOrNumber:997];
+    NSInteger expectedResult = 997;
+    XCTAssertEqual(expectedResult, result.integerValue);
+}
+-(void)testIsNineHundredNinetyNineFizz {
+    NSString* result = [self.fizzBuzz fizzBuzzOrNumber:999];
+    NSString* expectedResult = @"fizz";
+    XCTAssertEqual(expectedResult, result);
+}
+
 @end
