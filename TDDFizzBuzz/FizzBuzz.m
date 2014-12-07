@@ -12,7 +12,8 @@
 - (NSString*)fizzBuzzOrNumber:(NSInteger)number{
     if (number%3 == 0)
         return @"fizz";
-    else
-        return [NSString stringWithFormat:@"%li",(long)number];
+    else if (number%5 ==0)
+        return @"buzz";
+    return [NSString stringWithFormat:@"%li",(long)number];
 }
 @end

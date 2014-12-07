@@ -54,5 +54,9 @@
     NSString* expectedResult = @"fizz";
     XCTAssertEqual(expectedResult, result);
 }
-
+-(void)testIsFiveBuzz {
+    NSString* result = [self.fizzBuzz fizzBuzzOrNumber:5];
+    NSString* expectedResult = @"buzz";
+    XCTAssertEqual(expectedResult, result);
+}
 @end
